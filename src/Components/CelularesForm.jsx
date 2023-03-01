@@ -27,7 +27,7 @@ function CelularesForm({del, id}){
 
     async function cargarCelular(){
         try{
-            const res = await axios("https://denny2023.azurewebsites.net/celulares/"+id)
+            const res = await axios("https://denny2023.azurewebsites.net/api/celulares/"+id)
             const data = await res.data
 
             console.log(data)
@@ -61,7 +61,7 @@ function CelularesForm({del, id}){
                 guardar()
             else if(del != true)
                 editar()
-            else
+            else if(del == true)
                 eliminar()
         }
     }
