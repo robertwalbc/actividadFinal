@@ -13,7 +13,7 @@ function Tabla({filas, campos, controlador, evento}){
                 <thead>
                     <tr>
                         <td>
-                            <button className="btn btn-success" onClick={() => evento()} data-bs-toggle="modal" data-bs-target="#celularesModal">Nuevo</button>
+                            <button className="btn btn-success" onClick={() => evento()} data-bs-toggle="modal" data-bs-target={`#${controlador}Modal`}>Nuevo</button>
                             </td>
                         {campos.map((value, index) => {
                             return <th key={index}>{value}</th>
@@ -25,8 +25,8 @@ function Tabla({filas, campos, controlador, evento}){
                         {filas.map((value, index) => {
                             return <tr key={index}>
                                 <td>
-                                    <button className="btn btn-primary" onClick={() => evento(Object.values(value)[0])} data-bs-toggle="modal" data-bs-target="#celularesModal">Editar</button>
-                                    <button className="btn btn-danger" onClick={() => evento(Object.values(value)[0], true)} data-bs-toggle="modal" data-bs-target="#celularesModal">Eliminar</button>   
+                                    <button className="btn btn-primary" onClick={() => evento(Object.values(value)[0])} data-bs-toggle="modal" data-bs-target={`#${controlador}Modal`}>Editar</button>
+                                    <button className="btn btn-danger" onClick={() => evento(Object.values(value)[0], true)} data-bs-toggle="modal" data-bs-target={`#${controlador}Modal`}>Eliminar</button>   
                                 </td>
                                 {Object.values(value).map((value2, index2) => {
                                     return <td key={index2}>{value2}</td>
