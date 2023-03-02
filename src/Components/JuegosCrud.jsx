@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Menu from "./Menu";
-import Tabla from "./Tabla";
+import Tabla2 from "./Tabla2";
 import JuegosForm from "./JuegosForm"
 
 function JuegosCrud(){
@@ -39,7 +39,7 @@ function JuegosCrud(){
                 juegos==undefined ?
                     <div className="spinner-border text-primary" role="status"><span>Loading...</span></div>
                 :
-                    <Tabla filas={juegos} evento={configuar} controlador="juegos" campos={["ID", "Titulo", "Descripcion", "Plataforma","Precio","Categoria"]} />
+                    <Tabla2 filas={juegos} evento={configuar} controlador="juegos" campos={["ID", "Titulo", "Descripcion", "Plataforma","Precio","Categoria"]} />
             }
                  
             <div className="modal fade" id="juegosModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

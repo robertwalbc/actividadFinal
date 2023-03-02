@@ -26,7 +26,7 @@ function Tabla({filas, campos, controlador, evento}){
                             return <tr key={index}>
                                 <td>
                                     <button className="btn btn-primary" onClick={() => evento(Object.values(value)[0])} data-bs-toggle="modal" data-bs-target="#celularesModal">Editar</button>
-                                    <button className="btn btn-danger" onClick={() => evento(Object.values(value)[0], true)} data-bs-toggle="modal" data-bs-target="#celularesModal">Eliminar</button>
+                                    <button className="btn btn-danger" onClick={() => evento(Object.values(value)[0], true)} data-bs-toggle="modal" data-bs-target="#celularesModal">Eliminar</button>   
                                 </td>
                                 {Object.values(value).map((value2, index2) => {
                                     return <td key={index2}>{value2}</td>
@@ -36,7 +36,9 @@ function Tabla({filas, campos, controlador, evento}){
                 </tbody>
             </table>
         </div>
+        
     )
 }
+
 
 export default Tabla
