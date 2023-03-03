@@ -4,6 +4,7 @@ import Menu from "./Menu";
 import Tabla from "./Tabla";
 import JuegosForm from "./JuegosForm"
 
+
 function JuegosCrud(){
 
     const[juegos, setJuegos] = useState()
@@ -34,6 +35,7 @@ function JuegosCrud(){
     return(
         <div>
             <Menu />
+           
             <h1>Juegos</h1>
             {
                 juegos==undefined ?

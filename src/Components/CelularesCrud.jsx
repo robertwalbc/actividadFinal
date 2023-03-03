@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Menu from "./Menu";
 import Tabla from "./Tabla";
 import CelularesForm from "./CelularesForm"
-
+import Footer from "./Pie";
 function CelularesCrud(){
 
     const[celulares, setCelulares] = useState()
