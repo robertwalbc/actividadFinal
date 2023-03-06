@@ -8,8 +8,8 @@ function Pie(){
       <div className="text-center">
         <section className=" bg-light justify-content-center pt-2 border-bottom">
           <div>
-            <span id="contacto">Conéctate con nosotros en las redes sociales:</span>
-          </div>
+            <span id="contacto" >Conéctate con nosotros en las redes sociales:</span>
+          </div><br />
          
           <div id="nombres" className="row">
             <div  id="col-1" className="col-12 col-sm-6 ">
