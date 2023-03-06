@@ -22,7 +22,7 @@ function Pie(){
                 </Link></p>
 
               <p> <span className="m-4">Guillermo Alas</span> 
-                <Link to="" className="me-4 text-reset">
+                <Link to="https://www.linkedin.com/in/guillermo-alas" className="me-4 text-reset">
                   <i className="fab fa-linkedin logo1"></i>
                 </Link> 
                 <Link to="https://github.com/josealas1993" className="me-4 text-reset ">
@@ -32,18 +32,18 @@ function Pie(){
          
             <div  id="col-2" className="col-12 col-sm-6">
               <p> <span className="m-4">Robert Albeño</span> 
-                <Link to="https://github.com/robertwalbc" className="me-4 text-reset">
+                <Link to="https://www.linkedin.com/in/robertwalb" className="me-4 text-reset">
                   <i className="fab fa-linkedin logo1"></i>
                 </Link> 
-                <Link to="" className="me-4 text-reset logo">
+                <Link to="https://github.com/robertwalbc" className="me-4 text-reset logo">
                   <i className="fab fa-github logo2"></i>
                 </Link></p>
 
               <p> <span className="m-4">Karen Fuentes</span> 
-                <Link to="" className="me-4 text-reset">
+                <Link to="https://www.linkedin.com/in/karen-fuentes-435670229" className="me-4 text-reset">
                   <i className="fab fa-linkedin logo1"></i>
                 </Link> 
-                <Link to="" className="me-4 text-reset logo">
+                <Link to="https://github.com/Ste2899" className="me-4 text-reset logo">
                   <i className="fab fa-github logo2"></i>
                 </Link></p>
             </div>
