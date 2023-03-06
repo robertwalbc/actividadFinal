@@ -1,8 +1,8 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import Menu from "./Menu";
 import Tabla from "./Tabla";
 import CelularesForm from "./CelularesForm"
+
 
 function CelularesCrud(){
 
@@ -33,8 +33,7 @@ function CelularesCrud(){
 
   return(
     <div>
-      <Menu />
-      <h1>Celulares</h1>
+      <h1 className = "m-3">Celulares</h1>
       {
         celulares === undefined ?
           <div className="spinner-border text-primary" role="status"><span>Loading...</span></div>

@@ -1,12 +1,11 @@
 import React from "react";
-import Menu from "./Menu";
+
 
 function HomePage(){
 
   return(
     <div>
-      <Menu />
-      <h1>Home</h1>       
+      <h1 className = "m-3">Home</h1>     
     </div>
   )
 }

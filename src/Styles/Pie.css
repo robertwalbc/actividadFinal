@@ -1,0 +1,35 @@
+footer {
+  background-color: #2B9EB3;
+  font-family: 'Quicksand', sans-serif;
+  color: aliceblue;
+  font-size: 0.9rem;
+}
+
+#nombres {
+  text-align: center;
+  color: #0f2f42;
+}
+
+#contacto {
+  color: #2B9EB3;
+  font-weight: bold;
+}
+
+@media (min-width: 600px) {
+  #col-1 {
+    text-align: right;
+  }
+  
+  #col-2 {
+    text-align: left;
+  } 
+  
+ }
+
+ .logo1:hover {
+ color: #3e84f6;
+ }
+
+ .logo2:hover{
+  color: #c9510c;
+ }
