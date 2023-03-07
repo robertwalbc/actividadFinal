@@ -21,10 +21,10 @@ function Menu(){
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-3">
                             
               <li className="nav-item">
-                <Link to="/celulares" className="nav-link active">Celulares</Link>
+                <Link to="/celulares" className="nav-link active sub">Celulares</Link>
               </li>
               <li className="nav-item">
-                <Link to="/juegos" className="nav-link active">Juegos</Link>
+                <Link to="/juegos" className="nav-link active sub">Juegos</Link>
               </li>
             </ul>
           </div>
