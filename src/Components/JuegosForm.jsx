@@ -18,7 +18,7 @@ function JuegosForm({del, id}){
     else{
       setJuego(paramIniciales)
     }
-  },[])
+  },[id])
 
   async function cargarJuego(){
     try{
