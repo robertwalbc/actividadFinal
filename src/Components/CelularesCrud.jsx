@@ -1,6 +1,5 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import Menu from "./Menu";
 import Tabla from "./Tabla";
 import CelularesForm from "./CelularesForm";
 import '../Styles/Tabla.css';

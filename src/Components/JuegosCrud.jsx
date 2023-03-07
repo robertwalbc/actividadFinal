@@ -1,6 +1,5 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import Menu from "./Menu";
 import Tabla from "./Tabla";
 import JuegosForm from "./JuegosForm";
 import '../Styles/Tabla.css';
@@ -35,7 +34,7 @@ function JuegosCrud(){
   return(
     <div>
       <Menu />
-      <h1 className="table-margin">Juegos</h1>
+      <h1>Juegos</h1>
       {
         juegos === undefined ?
           <div className="spinner-border text-primary" role="status"><span>Loading...</span></div>

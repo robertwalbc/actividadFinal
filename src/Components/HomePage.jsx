@@ -1,5 +1,4 @@
 import React from "react";
-import Menu from "./Menu";
 import "./HomePage.css";
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -7,11 +6,11 @@ function HomePage(){
 
   return(
     <div>
-      <Menu />
+    
       <br />
       <div className="container py-5">
         <div className="text-center">
-          <h1>Bienvenidos Tienda de Juegos y Computadoras</h1>
+          <h1>Bienvenidos Tienda de Juegos y Computadoras </h1>
           <p>Si está buscando productos de alta calidad y un servicio excepcional, nuestra tienda de computadoras y juegos es el lugar perfecto para usted.</p>
         </div>
         <div class="row py-5 border-bottom">
