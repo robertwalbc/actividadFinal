@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import '../Styles/Tabla.css';
+import "../Styles/Tabla.css";
 
 function Tabla({filas, campos, controlador, evento}){
 
