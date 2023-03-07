@@ -22,7 +22,7 @@ function HomePage(){
                 </p>
             </div>
             <div class="col-md-5">
-                <img src="./img/image4.jpg" alt="Computadoras" class="w-100 rounded"/>
+                <img src="./img/computadora.jpg" alt="Computadoras" class="w-100 rounded"/>
             </div>
         </div>
         <div class="row py-5 border-bottom">
@@ -33,7 +33,7 @@ function HomePage(){
                 </p>
             </div>
             <div class="col-md-5 order-md-1">
-                <img src="./img/image5.jpg" alt="Juegos" class="w-100 rounded"/>
+                <img src="./img/juego.jpg" alt="Juegos" class="w-100 rounded"/>
             </div>
         </div>
       </div> 
