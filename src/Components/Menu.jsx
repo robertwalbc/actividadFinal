@@ -7,7 +7,7 @@ function Menu(){
 
   return(
     <div>
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand-md navbar-dark" id="navbar">
         <div className="container">  
           <img className="me-2" src="./img/logo.png" width="30"
             height="30" alt="Logo" />                

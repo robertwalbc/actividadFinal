@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Tabla from "./Tabla";
 import JuegosForm from "./JuegosForm";
-import '../Styles/Tabla.css';
+import "../Styles/Tabla.css";
 
 function JuegosCrud(){
 
@@ -33,8 +33,7 @@ function JuegosCrud(){
 
   return(
     <div>
-      <Menu />
-      <h1>Juegos</h1>
+      <h1 className="m-3">Juegos</h1>
       {
         juegos === undefined ?
           <div className="spinner-border text-primary" role="status"><span>Loading...</span></div>
