@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import { Link } from "react-router-dom";
 import "../Styles/Menu.css"
@@ -6,7 +7,7 @@ function Menu(){
 
   return(
     <div>
-      <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
+      <nav className="navbar navbar-expand-lg">
         <div className="container">  
           <img className="me-2" src="./img/logo.png" width="30"
             height="30" alt="Logo" />                
