@@ -188,10 +188,10 @@ function CelularesForm({del, id}){
           <div className="valid-feedback">Correcto</div>
           <div className="invalid-feedback">Ingrese una operadora</div>
         </div>
-        <div className="form-group mt-2">
-          <button className={`btn btn-${id === undefined ? "success" : del !== true ? "primary" : "danger"}`} 
+        <div className="form-group mt-2 d-flex justify-content-end">
+          <button className={`${id === undefined ? "create" : del !== true ? "edit" : "delete"}`} 
             onClick={(e) => enviar(e)}>{id === undefined ? "Guardar" : del !== true ? "Editar" : "Eliminar"}</button>
-          <button className="btn btn-secondary" data-bs-dismiss="modal" onClick={(e) => cancelar(e)}>Cancelar</button>
+          <button className="cancel" data-bs-dismiss="modal" onClick={(e) => cancelar(e)}>Cancelar</button>
         </div>
       </form>
     </div>
