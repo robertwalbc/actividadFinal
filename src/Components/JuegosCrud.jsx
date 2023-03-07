@@ -33,7 +33,6 @@ function JuegosCrud(){
 
   return(
     <div>
-      <Menu />
       <h1>Juegos</h1>
       {
         juegos === undefined ?

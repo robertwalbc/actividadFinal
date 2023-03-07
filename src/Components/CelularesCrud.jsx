@@ -33,7 +33,6 @@ function CelularesCrud(){
 
   return(
     <div>
-      <Menu />
       <h1 className="table-margin">Celulares</h1>
       {
         celulares === undefined ?
