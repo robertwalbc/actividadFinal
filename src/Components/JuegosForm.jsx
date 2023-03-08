@@ -17,7 +17,7 @@ function JuegosForm({del, id}){
 
   async function cargarJuego(){
     try{
-      const res = await axios.get("https://denny2023.azurewebsites.net/api/juegos" + id)
+      const res = await axios("https://denny2023.azurewebsites.net/api/juegos/" + id)
       const data = await res.data;
 
       setJuego(data)
