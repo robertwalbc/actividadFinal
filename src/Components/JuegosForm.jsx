@@ -1,11 +1,6 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
 
-//const[titulo, setTitulo] = useState("")
-// const[descripcion, setDescripcion] = useState("")
-// const[plataforma, setPlataforma] = useState("")
-// const[precio, setPrecio] = useState("")
-// const[categoria, setCategoria] = useState("")
 function JuegosForm({del, id}){
 
   const paramIniciales =  {titulo:"", descripcion: "", plataforma:"", precio:"", categoria: ""}

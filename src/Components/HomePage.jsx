@@ -6,7 +6,6 @@ function HomePage(){
 
   return(
     <div>
-    
       <br />
       <div className="container py-5">
         <div className="text-center">

@@ -6,25 +6,13 @@ function CelularesForm({del, id}){
   const paramIniciales =  {marca:"", modelo: "", color:"", precio:"", descripcion: "", operadora: ""}
 
   const[celular, setCelular] = useState(paramIniciales)
-  // const[marca, setMarca] = useState("")
-  // const[modelo, setModelo] = useState("")
-  // const[color, setColor] = useState("")
-  // const[precio, setPrecio] = useState("")
-  // const[descripcion, setDescripcion] = useState("")
-  // const[operadora, setOperadora] = useState("")
 
   useEffect(() =>{
-    //console.log(id)
+   
     if(id !== undefined)
       cargarCelular()
     else{
       setCelular(paramIniciales)
-      // setMarca("")
-      // setModelo("")
-      // setColor("")
-      // setPrecio("")
-      // setDescripcion("")
-      // setOperadora("")
     }
   },[id])
 
@@ -34,13 +22,6 @@ function CelularesForm({del, id}){
       const data = await res.data
 
       setCelular(data)
-      // console.log(data)
-      // setMarca(data.marca)
-      // setModelo(data.modelo)
-      // setColor(data.color)
-      // setPrecio(data.precio)
-      // setDescripcion(data.descripcion)
-      // setOperadora(data.operadora)
     }
     catch(error){
       if(error.response.status === 404){
