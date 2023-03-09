@@ -1,11 +1,6 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
 
-//const[titulo, setTitulo] = useState("")
-// const[descripcion, setDescripcion] = useState("")
-// const[plataforma, setPlataforma] = useState("")
-// const[precio, setPrecio] = useState("")
-// const[categoria, setCategoria] = useState("")
 function JuegosForm({del, id}){
 
   const paramIniciales =  {titulo:"", descripcion: "", plataforma:"", precio:"", categoria: ""}
@@ -22,7 +17,7 @@ function JuegosForm({del, id}){
 
   async function cargarJuego(){
     try{
-      const res = await axios.get("https://denny2023.azurewebsites.net/api/juegos" + id)
+      const res = await axios("https://denny2023.azurewebsites.net/api/juegos/" + id)
       const data = await res.data;
 
       setJuego(data)
